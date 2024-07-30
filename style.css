@@ -1,0 +1,31 @@
+p {
+    
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(8, 87.5px);
+    grid-template-rows: repeat(8, 87.5px);
+    overflow: hidden;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+img {  
+    user-drag: none; 
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    width: 87.5px;
+ }
+
+ .highlight {
+    background-color: none;
+    border: 5px solid yellowgreen;
+ }
